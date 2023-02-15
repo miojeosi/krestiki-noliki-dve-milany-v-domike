@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+      Title="MainWindow" Height="615" Width="433">
+    <Grid RenderTransformOrigin="0.859,0.222" Name="GameField" HorizontalAlignment="Left" Width="454" Margin="0,58,0,-6">
+
+        <Button x:Name="b1" Tag="0" Margin="42,113,315,330" Click="Button_Click"  RenderTransformOrigin="0.652,-0.032" FontSize="50" FontWeight="Bold"/>
+        <Button x:Name="b2" Tag="1" Content="" Margin="180,113,177,330" Click="Button_Click"  RenderTransformOrigin="0.652,-0.032" FontSize="50" FontWeight="Bold"/>
+        <Button x:Name="b3" Tag="4" Content="" Margin="180,225,177,220" Click="Button_Click"  RenderTransformOrigin="0.652,-0.032" FontSize="50" FontWeight="Bold"/>
+        <Button x:Name="b4" Tag="3" Content="" Margin="42,225,315,220" Click="Button_Click"  RenderTransformOrigin="0.652,-0.032" FontSize="50" FontWeight="Bold"/>
+        <Button x:Name="b5" Tag="2" Content="" Margin="316,113,41,330" Click="Button_Click"  RenderTransformOrigin="0.652,-0.032" FontSize="50" FontWeight="Bold"/>
+        <Button x:Name="b6" Tag="5" Content="" Margin="316,229,41,220" Click="Button_Click"  RenderTransformOrigin="0.652,-0.032" FontSize="50" FontWeight="Bold"/>
+        <Button x:Name="b7" Tag="7" Margin="180,336,177,114" Click="Button_Click"  RenderTransformOrigin="0.652,-0.032" FontSize="50" FontWeight="Bold"/>
+        <Button x:Name="b8" Tag="6" Margin="42,336,315,114" Click="Button_Click"  RenderTransformOrigin="0.652,-0.032" FontSize="50" FontWeight="Bold"/>
+        <Button x:Name="b9" Tag="8" Content="" Margin="316,336,41,114" Click="Button_Click"  RenderTransformOrigin="0.652,-0.032" FontSize="50" FontWeight="Bold"/>
+        <Button x:Name="start" Content="заново" Margin="138,453,137,10" Click="refresch"  RenderTransformOrigin="0.652,-0.032" FontSize="50" FontWeight="Bold"/>
+        <TextBox x:Name="my" TextWrapping="Wrap"  Margin="42,10,41,452" TextAlignment="Center" FontSize="24" RenderTransformOrigin="0.509,0.875"/>
+
+    </Grid>
+</Window>
